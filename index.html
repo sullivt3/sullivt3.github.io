@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thomas J. Sullivan — Systems Engineer</title>
+  <meta name="description" content="Thomas J. Sullivan — Systems Engineer with 10+ years at Lockheed Martin specializing in Linux, virtualization, containerization, and C/C++ development." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Thomas J. Sullivan</h1>
+      <p class="tagline">Systems Engineer · Linux · Virtualization · C/C++</p>
+      <p class="location">New Haven, CT · Secret Clearance</p>
+      <nav class="contact">
+        <a href="mailto:sullivan.thomas320@gmail.com">Email</a>
+        <a href="https://github.com/sullivt3" target="_blank" rel="noopener">GitHub</a>
+        <a href="resume.pdf" download>Download PDF</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>Profile</h2>
+      <p>
+        Systems Engineer with over 10 years of experience at Lockheed Martin supporting the F-16
+        program and mission-critical Naval defense systems, and 10+ years working in Linux. Skilled in
+        C/C++ software development, customizing Linux operating environments, and virtualization and
+        containerization technologies, including VMware ESXi, KVM, LXC/LXD, Docker, and Kubernetes.
+        Experienced in developing software across multiple platforms using C++, Java, and Python, with a
+        strong background in systems engineering and design and in building reliable, high-performance
+        solutions.
+      </p>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Senior Systems Hardware Design Engineer <span class="org">@ Lockheed Martin</span></h3>
+          <span class="date">Jan 2024 – Jun 2026</span>
+        </div>
+        <p class="place">Hill Air Force Base, UT · F-16 Program</p>
+        <ul>
+          <li>Developed C++ software for aviation simulation within an Agile Scrum framework.</li>
+          <li>Re-architected the boot process for 50+ single-board computers by implementing PXE boot with
+            network-shared overlayfs filesystems, <strong>reducing system upgrade time by 98%</strong>.</li>
+          <li>Implemented end-to-end video capture solutions, including hardware installation, software
+            development, testing, and deployment.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Infrastructure Engineer → Senior Infrastructure Engineer, RE <span class="org">@ Lockheed Martin</span></h3>
+          <span class="date">Apr 2018 – Jan 2024</span>
+        </div>
+        <p class="promo">Promoted to Senior Infrastructure Engineer, Apr 2022</p>
+        <p class="place">Moorestown, NJ · AEGIS Weapon System</p>
+        <ul>
+          <li>Led teams through <strong>fifteen international installations</strong> of AEGIS Weapon System
+            technologies on Naval ships.</li>
+          <li>Virtualized the AEGIS Weapon System (VAWS) using multiple approaches: KVM and VMware ESXi
+            virtual machines, and LXC/LXD containers orchestrated with Kubernetes.</li>
+          <li>Administered VMware infrastructure (vSphere, vCenter, ESXi, NSX, vSAN), covering VM
+            deployment, virtual networking, storage provisioning, resource allocation, and monitoring.</li>
+          <li>Managed bare-metal clusters of <strong>100+ PXE-booted Red Hat systems</strong>, locally
+            booted nodes, and KVM virtual machines using Warewulf and xCAT/xCAT2.</li>
+          <li>Tuned the kernel for hardware temperature control via thermal throttling, CPU frequency
+            scaling, and power management.</li>
+          <li>Consolidated security methods across the system, including OS hardening, volume
+            verification, and software encryption.</li>
+          <li>Designed NAS/SAN RAID storage solutions with iSCSI and NFS to meet storage and
+            accessibility requirements.</li>
+          <li>Built and maintained CI/CD pipelines in GitLab.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Associate Infrastructure Engineer <span class="org">@ Lockheed Martin</span></h3>
+          <span class="date">Jan 2016 – Apr 2018</span>
+        </div>
+        <p class="place">Moorestown, NJ</p>
+        <ul>
+          <li>Modernized the delivery process, saving time both when creating deliveries and when installing products.</li>
+          <li>Interfaced directly with customers, both domestic and foreign.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="awards">
+      <h2>Awards</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>NextGen Lockheed Martin Award</h3>
+          <p>For leading the successful installation of the AEGIS Weapon System on two Japanese Naval
+            ships simultaneously.</p>
+        </article>
+        <article class="card">
+          <h3>Lockheed Martin Recognition Certificate</h3>
+          <p>For developing a mobile, virtualized version of the AEGIS Weapon System used by the USMC.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <dl class="skills">
+        <dt>Linux &amp; Systems</dt>
+        <dd>Red Hat Linux, kernel compilation &amp; customization, PXE, DHCP, xCAT/xCAT2, Warewulf, Ansible</dd>
+        <dt>Virtualization</dt>
+        <dd>KVM, libvirt, VMware ESXi, vSphere, vCenter, NSX, vSAN, Packer</dd>
+        <dt>Containers</dt>
+        <dd>Kubernetes, Docker, Podman, LXC/LXD</dd>
+        <dt>Storage</dt>
+        <dd>NAS/SAN, RAID, iSCSI, NFS</dd>
+        <dt>Networking</dt>
+        <dd>Cisco switch OS, network troubleshooting tools</dd>
+        <dt>Languages</dt>
+        <dd>C, C++, Python, Java, Bash, Perl</dd>
+        <dt>Tooling</dt>
+        <dd>CMake/GCC, Git, GitLab CI/CD, Jira, Artifactory</dd>
+      </dl>
+    </section>
+
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <ul class="plain">
+        <li>CompTIA Security+</li>
+        <li>Certified Kubernetes Administrator (CKA) <span class="muted">— in progress</span></li>
+        <li>Certified Kubernetes Application Developer (CKAD) <span class="muted">— in progress</span></li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <article class="entry">
+        <div class="entry-head">
+          <h3>B.S. Computer Science <span class="org">@ Rowan University</span></h3>
+        </div>
+        <p class="place">Glassboro, NJ</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> Thomas J. Sullivan</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -126,7 +126,6 @@ footer {
 @media print {
   :root { --bg: #fff; --text: #000; --muted: #444; --accent: #000; --card: #fff; --border: #ccc; }
   .hero { padding: 0 0 1rem; }
-  .contact a[download] { display: none; }
   .contact a { border: none; padding: 0; }
   .contact a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.8rem; }
   section { padding-top: 1rem; break-inside: avoid; }

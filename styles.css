@@ -59,6 +59,7 @@ strong { color: var(--text); font-weight: 600; }
 /* ---------- Top nav ---------- */
 .topnav {
   position: sticky; top: 0; z-index: 50;
+  background: var(--bg);
   background: color-mix(in srgb, var(--bg) 85%, transparent);
   backdrop-filter: saturate(180%) blur(10px);
   -webkit-backdrop-filter: saturate(180%) blur(10px);
@@ -122,7 +123,7 @@ strong { color: var(--text); font-weight: 600; }
   font-weight: 600; font-size: 0.98rem; transition: transform 0.15s ease, filter 0.15s ease;
 }
 .btn:hover { text-decoration: none; transform: translateY(-1px); }
-.btn-primary { background: var(--accent); color: #fff; box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 35%, transparent); }
+.btn-primary { background: var(--accent); color: #fff; box-shadow: 0 4px 14px rgba(29, 78, 216, 0.3); box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 35%, transparent); }
 .btn-primary:hover { filter: brightness(1.1); }
 .btn-ghost { border: 1px solid var(--border); color: var(--text); background: var(--card); }
 .btn-ghost:hover { border-color: var(--accent); }

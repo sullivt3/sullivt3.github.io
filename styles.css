@@ -208,6 +208,7 @@ h2::after { content: ""; flex: 1; height: 1px; background: var(--border); }
 #projects .card { border-top: 3px solid var(--accent); }
 .card h3 { margin: 0 0 0.4rem; font-size: 1rem; font-weight: 700; }
 .card p { margin: 0; }
+.project-link { display: inline-block; margin-top: 1rem; font-weight: 600; }
 ul.plain { margin: 0; padding: 0; list-style: none; }
 ul.plain li { margin-bottom: 0.45rem; }
 .pill {

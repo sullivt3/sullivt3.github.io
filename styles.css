@@ -205,7 +205,7 @@ h2::after { content: ""; flex: 1; height: 1px; background: var(--border); }
   background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
   padding: 1.25rem 1.35rem; box-shadow: var(--shadow);
 }
-#awards .card { border-top: 3px solid var(--accent); }
+#projects .card { border-top: 3px solid var(--accent); }
 .card h3 { margin: 0 0 0.4rem; font-size: 1rem; font-weight: 700; }
 .card p { margin: 0; }
 ul.plain { margin: 0; padding: 0; list-style: none; }
